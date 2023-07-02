@@ -1,7 +1,197 @@
+html{
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    font-family: 'Inconsolata', monospace;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Prata', serif;
+    font-weight: normal;
+}
+
+
+p{
+    line-height: 145%;
+}
+
+
+.works{
+    color: #16736e;
+}
+
+.works-img{
+    width: 100%;
+    position: relative;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+h1{
+    font-size: 150px;
+    margin: 0;
+}
+
+h2{
+    font-size: 100px;
+}
+
+.works h2{
+    color: #41ccc4;
+}
+
+.works h4{
+    position: absolute;
+    z-index: 1;
+    top: -25px;
+}
+
+.my_team h2{
+    color: #003170 ;
+}
+
+h3{
+    font-size: 50px;
+}
+
+.works h3{
+    color: #16736e;
+}
+
+.my_team h3{
+    color: #306fbf;
+    margin: 0 0 40px 0;
+    line-height: 1;
+}
+
+h4{
+    font-size: 32px;
+    color: #16736e;
+    background-color: #75e3dd;
+    display: inline-block;
+    margin: 0;
+    padding: 4px;
+
+}
+
+.works a{
+    letter-spacing: 3px;
+    color: #2ce6dc;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact{
+    color: #f3747b;
+}
+
+nav{
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    font-family: 'Prata', serif;
+    font-size: 22px;
+}
+.navigation{
+    text-align: center;
+}
+
+.navigation li{
+    display: inline-block;
+    margin: 0 15px;
+    color: #0f605c;
+
+
+}
+
+nav a{
+    color: #20c4bb;
+    text-decoration: none;
+
+}
+
+.left-col, .right-col{
+    color: white;
+    text-align: center;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-container{
+    width: 500px;
+    margin: 0 auto;
+}
+
 .left-col {
     background-color: #003372;
 }
 
+
 .right-col {
     background-color: #71E2DC;
 }
+
+.scroll{
+    color: #2864b1;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+}
+
+footer{
+    background-color: #F7989C;
+    min-height: 220px;
+    background-image: url(../img/socialmedia.svg);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    color: white;
+    text-align: center;
+
+}
+
+.social-icon{
+    height: 60px;
+    margin: 10px 20px;
+}
+
+.social-icons-container{
+    text-align: center;
+}
+
+.extra-gutter{
+    padding: 0 60px;
+}
+
+.right-aligned{
+    text-align: right;
+}
+
+.works h4.right-aligned{
+    right: 0;
+}
+
+.social-icons-container img{
+    width: 60px;
+}
+
+.img-margin{
+    margin-bottom: 60px;
+}
+
+.contact p{
+    color: #16736e;
+}
+
